@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Android-Final</string>
+    <string name="send_button_label">Send</string>
+    <string name="user_image">User image</string>
+    <string name="send_message">Send message</string>
+    <string name="general">General</string>
+    <string name="support">Support</string>
+    <string name="logout">Logout</string>
+    <string name="notes">Notes</string>
+    <string name="add_note">Add note</string>
+    <string name="sync_now">Sync now</string>
+    <string name="rate_app">Rate App</string>
+    <string name="share_app">Share App</string>
+    <string name="log_out">Log Out</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="add">Add</string>
+    <string name="list">List</string>
+    <string name="option">Options</string>
+    <string-array name="color_array">
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Brown</item>
+        <item>Red</item>
+        <item>Pink</item>
+    </string-array>
+    <string name="facebook_app_id">5154128464621770</string>
+    <string name="fb_login_protocol_scheme">fb5154128464621770</string>
+    <string name="switch_theme">Switch Theme</string>
+    <string name="theme">Theme</string>
+    <string name="resend">Không nhận được mã OTP ? <b>Gửi lại</b></string>
+</resources>

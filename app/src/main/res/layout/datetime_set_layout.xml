@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp"
+    >
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:clickable="true"
+        app:boxBackgroundColor="@color/white"
+        android:focusable="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textdatevalue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="30dp"
+            android:digits=""
+            android:hint="Date" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+</LinearLayout>

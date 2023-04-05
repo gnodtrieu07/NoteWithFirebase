@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Cài đặt chung">
+        <menu>
+            <item
+                android:id="@+id/changePassword"
+                android:icon="@drawable/change_password"
+                android:title="Đổi mật khẩu" />
+            <item
+                android:id="@+id/sync"
+                android:icon="@drawable/sync"
+                android:title="Đồng bộ ngay" />
+        </menu>
+    </item>
+
+    <item android:title="Giao diện">
+        <menu>
+            <item
+                android:id="@+id/theme"
+                android:title="@string/switch_theme"
+                android:icon="@drawable/ic_baseline_wb_sunny_24"
+                app:actionLayout="@layout/theme_switch"
+                app:showAsAction="always"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_baseline_vpn_key_24"
+        android:title="Đăng xuất" />
+
+</menu>

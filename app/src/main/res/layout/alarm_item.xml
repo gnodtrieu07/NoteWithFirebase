@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/alarm_item_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:layout_marginStart="1dp"
+    android:layout_marginEnd="1dp">
+
+    <TextView
+        android:id="@+id/alarm_time"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:layout_weight="1"
+        android:paddingStart="10dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <RadioGroup
+        android:id="@+id/alarm_onoroff_parent"
+        android:layout_width="48dp"
+        android:layout_height="48dp">
+
+        <com.example.android_final.custom.CustomRadioButton2
+            android:id="@+id/alarm_onoroff"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:buttonTint="@color/black"/>
+    </RadioGroup>
+
+</LinearLayout>

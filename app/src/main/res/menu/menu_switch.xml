@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <!-- "Mark Favorite", should appear as action button if possible -->
+    <item android:title="Giao diện"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/listview_icon"
+        android:id="@+id/switch_menu"
+        >
+        <menu>
+            <item
+                android:id="@+id/theme"
+                android:title="@string/switch_theme"
+                android:icon="@drawable/ic_baseline_wb_sunny_24"
+                app:showAsAction="always"/>
+        </menu>
+    </item>
+</menu>
